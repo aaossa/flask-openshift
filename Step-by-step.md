@@ -24,7 +24,7 @@ Flask==0.11
 
 **4)** Personalize `<project>/setup.py` by just replacing the `setup()` arguments to fit your project.
 
-**5)** We create a Flask app in another file (`<project>/<flaskapp>.py`). In this case, we use `flask_openshift_template.py, with a "Hello World!" example.
+**5)** We create a Flask app in another file (`<project>/<flaskapp>.py`). In this case, we use `flask_openshift_template.py`, with a "Hello World!" example.
 
 ```python
 from flask import Flask
