@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flask OpenShift template</title>
+	<link rel='stylesheet' href='static/styles/index.css'>
+</head>
+<body>
+	<h1>Flask OpenShift template</h1>
+
+	<form id="form_login" action="{{ url_for('login') }}" method="POST">
+		<input id="username_login" type="text" name="username" placeholder="Username">
+		<input id="submit_login" type="submit" value="Go!">
+	</form>
+</body>
+</html>

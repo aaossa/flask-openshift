@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flask OpenShift template</title>
+	<link rel='stylesheet' href='../static/styles/user.css'>
+</head>
+<body>
+    {% if username %}
+	<h1>Hello <span>{{ username }}</span>!</h1>
+    {% else %}
+    <h1>What's your username?</h1>
+    {% endif %}
+</body>
+</html>

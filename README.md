@@ -32,8 +32,6 @@ https://<project>-<namespace>.rhcloud.com
 
 ### Next
 
-- More folders
-
 - Environment variables
 
 # License
