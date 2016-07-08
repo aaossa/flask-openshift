@@ -11,7 +11,7 @@ $ rhc app create <project> python-3.4
 $ cd <project>
 ```
 
-Add this upstream and push
+Add this upstream and pull
 
 ```bash
 $ git remote add upstream -m master https://github.com/aaossa/flask-openshift.git
