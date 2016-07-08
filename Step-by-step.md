@@ -54,3 +54,29 @@ if __name__ == '__main__':
 ```
 
 **7)** Go to `https://<project>-<namespace>.rhcloud.com`
+
+# Optional
+
+If you want to use Environment Variables, you can set variables with:
+
+```bash
+rhc env set <var1>=<value> <var2>=<value> -a <project>
+```
+
+and you can list them,
+
+```bash
+rhc env list -a <project>
+```
+
+view one or more,
+
+```bash
+rhc env show <var1> <var2> -a <project>
+```
+
+and remove a variable
+
+```bash
+rhc env unset <var> -a <project>
+```
