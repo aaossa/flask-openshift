@@ -24,6 +24,12 @@ Checkout the "hello world example" at
 https://<project>-<namespace>.rhcloud.com
 ```
 
+### Next
+
+- More folders
+
+- Environment variables
+
 # License
 
 Code licensed under [GNU General Public License v3](http://opensource.org/licenses/GPL-3.0).
