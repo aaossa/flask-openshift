@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 
 readme = str()
 with open('README.md') as f:
-    readme = f.read().splitlines()
+    readme = f.read()
 
 setup(name='Flask-Openshift template',
 
