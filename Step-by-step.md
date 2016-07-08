@@ -8,7 +8,7 @@ This is a guide explaining the process to create this template.
 $ rhc app create <project> python-3.3
 ```
 
-**2)** If you are using a GitHub remote you may want to push to GitHub and OpenShift with different commands. [This answer](http://stackoverflow.com/a/12669112/3281097) in [this StackOverflow question](http://stackoverflow.com/q/12657168/3281097)could be helpful.
+**2)** If you are using a GitHub remote you may want to push to GitHub and OpenShift with different commands. [This answer](http://stackoverflow.com/a/12669112/3281097) in [this StackOverflow question](http://stackoverflow.com/q/12657168/3281097) could be helpful.
 
 ```bash
 $ git push
