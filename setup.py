@@ -23,7 +23,7 @@ setup(name='Flask-Openshift template',
 
       # Project details
       url='https://github.com/aaossa/flask-openshift',
-      license="GNU v3"
+      license="GNU v3",
 
       # Project dependencies
       install_requires=requirements,
