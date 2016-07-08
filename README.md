@@ -7,7 +7,7 @@ This is a template to host in [OpenShift](https://openshift.redhat.com) a Python
 Create a Python application and move to your new folder
 
 ```bash
-$ rhc app create <project> python-3.4
+$ rhc app create <project> python-3.3
 $ cd <project>
 ```
 
