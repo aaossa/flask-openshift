@@ -21,6 +21,7 @@ $ git push openshift HEAD
 Flask==0.11
 ```
 
+
 **4)** Personalize `<project>/setup.py` by just replacing the `setup()` arguments to fit your project.
 
 **5)** We create a Flask app in another file (`<project>/<flaskapp>.py`). In this case, we use `flask_openshift_template.py, with a "Hello World!" example.
@@ -52,8 +53,4 @@ if __name__ == '__main__':
     httpd.serve_forever()
 ```
 
-- folders
-
-- Flask says "Hello World!"
-
-- Environment variables
+**7)** Go to `https://<project>-<namespace>.rhcloud.com`
